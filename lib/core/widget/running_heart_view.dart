@@ -44,10 +44,7 @@ class _RunningHeartViewState extends State<RunningHeartView> {
     {"no": 28, "val": 90},
     {"no": 29, "val": 60},
     {"no": 30, "val": 70},
-    {"no": 31, "val": 60},
-    {"no": 32, "val": 70},
-    {"no": 33, "val": 80},
-    {"no": 34, "val": 90},
+    
   ];
   @override
   Widget build(BuildContext context) {
@@ -95,7 +92,7 @@ class _RunningHeartViewState extends State<RunningHeartView> {
                     ),
                   ),
                   SimpleCircularProgressBar(
-                    size: media.width * 0.65,
+                    size: media.width * 0.50,
                     mergeMode: true,
                     animationDuration: 1,
                     backColor: const Color(0xffE6E6E6),

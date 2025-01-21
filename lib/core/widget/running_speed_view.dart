@@ -59,7 +59,7 @@ class _RunningSpeedViewState extends State<RunningSpeedView> {
                     ),
                   ),
                   SimpleCircularProgressBar(
-                    size: media.width * 0.65,
+                    size: media.width * 0.50,
                     mergeMode: true,
                     animationDuration: 1,
                     backColor: const Color(0xffE6E6E6),
@@ -123,10 +123,7 @@ class _RunningSpeedViewState extends State<RunningSpeedView> {
                       18,
                       19,
                       20,
-                      21,
-                      22,
-                      23,
-                      24
+                      
                     ].map((valObj) {
                       return Container(
                         margin: const EdgeInsets.symmetric(horizontal: 2),

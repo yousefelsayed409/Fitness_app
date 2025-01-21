@@ -136,18 +136,18 @@ class _RunningViewState extends State<RunningView> {
                   
                   if(selectTab == 2)
                     RunningTimerView(height: media.height * 0.65),
-
+        
                   if(selectTab == 3)
                    RunningHeartView(height: media.height * 0.65),
-
+        
                   if(selectTab == 4)
                    RunningDensityView(height: media.height * 0.65),
                    
-
+        
               ],)
             ),
             Padding(
-              padding: const EdgeInsets.only(top: 30),
+              padding: const EdgeInsets.only(top: 20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [

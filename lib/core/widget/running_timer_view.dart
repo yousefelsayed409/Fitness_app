@@ -47,7 +47,7 @@ class _RunningTimerViewState extends State<RunningTimerView> {
                               ),
                               
                               SimpleCircularProgressBar(
-                                size: media.width * 0.65,
+                                size: media.width * 0.50,
                                 mergeMode: true,
                                 animationDuration: 1,
                                 backColor: const Color(0xffE6E6E6),
