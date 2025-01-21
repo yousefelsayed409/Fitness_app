@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
 import 'package:sleek_circular_slider/sleek_circular_slider.dart';
-import 'package:test/home_page.dart';
-import 'package:test/model_class.dart';
-import 'package:test/third_page.dart';
+import 'package:test/feature/exercise/data/exercises_model.dart';
+import 'package:test/feature/exercise/views/exercise_view.dart';
+
+import 'package:test/feature/exercise/views/third_page.dart';
 
 class SecondPage extends StatefulWidget {
  SecondPage({Key? key, this.exercise}) : super(key: key);

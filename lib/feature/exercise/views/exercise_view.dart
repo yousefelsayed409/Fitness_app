@@ -7,18 +7,18 @@ import 'package:fluttertoast/fluttertoast.dart';
 
 import 'package:http/http.dart' as http;
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
-import 'package:test/model_class.dart';
-import 'package:test/second_page.dart';
+import 'package:test/feature/exercise/data/exercises_model.dart';
+import 'package:test/feature/exercise/views/second_page.dart';
 import 'package:test/widget.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+class ExerciseView2 extends StatefulWidget {
+  const ExerciseView2({Key? key}) : super(key: key);
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<ExerciseView2> createState() => _ExerciseView2State();
 }
 
-class _HomePageState extends State<HomePage> {
+class _ExerciseView2State extends State<ExerciseView2> {
   String link =
       "https://raw.githubusercontent.com/codeifitech/fitness-app/master/exercises.json?fbclid=IwAR2gsu4SRvRRFkHK8JPTWHZXmaNP0dtpOG6h7ep4zQp7WaamX5S1UaSrc3A";
 
@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Color(0xff0A0C23).withOpacity(0.5),
         //backgroundColor: Colors.white38,
         appBar: AppBar(
-          title: Text("Fitness App"),
+          title: Text("Exercies"),
           centerTitle: true,
         ),
         body: ListView.builder(

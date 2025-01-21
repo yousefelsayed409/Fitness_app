@@ -2,8 +2,9 @@ import 'dart:async';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:test/home_page.dart';
-import 'package:test/model_class.dart';
+import 'package:test/feature/exercise/data/exercises_model.dart';
+import 'package:test/feature/exercise/views/exercise_view.dart';
+
 import 'package:test/widget.dart';
 
 

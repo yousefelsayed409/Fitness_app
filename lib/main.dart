@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test/home_page.dart';
+import 'package:test/core/utils/app_color.dart';
+import 'package:test/feature/Splash/splash_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,15 +9,20 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      title: ' Fitness App',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      theme: ThemeData(
+        fontFamily: "Quicksand",
+        colorScheme: ColorScheme.fromSeed(seedColor: TColor.Blue),
+        useMaterial3: false,
+      ),
+      // theme: ThemeData(
+      //   primarySwatch: Colors.blue,
+      // ),
+      home: SplashView(),
     );
   }
 }
