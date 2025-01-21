@@ -19,9 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: TColor.Blue),
         useMaterial3: false,
       ),
-      // theme: ThemeData(
-      //   primarySwatch: Colors.blue,
-      // ),
+     
       home: SplashView(),
     );
   }

@@ -80,6 +80,7 @@ class _ExerciseView2State extends State<ExerciseView2> {
           centerTitle: true,
         ),
         body: ListView.builder(
+          physics: BouncingScrollPhysics(),
             scrollDirection: Axis.vertical,
             shrinkWrap: true,
             itemCount: allData.length,
